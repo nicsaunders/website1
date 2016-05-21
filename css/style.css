@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica, Arial;
+  font-size: 12px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline;
+  border-right: solid black 1px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
