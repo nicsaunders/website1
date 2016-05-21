@@ -1,16 +1,47 @@
-body {
-  font-family: Helvetica, Arial;
-  font-size: 12px;
-}
+
+/* Base style */
+
+
+/* Navigation */
 
 nav ul {
   list-style-type: none;
   padding: 0px;
+  text-align: right;
 }
 
 nav ul li {
   display: inline;
   border-right: solid black 1px;
-  margin-right: 10px;
-  padding-right: 10px;
+  margin-right: 12px;
+  padding-right: 12px;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+
+/* Header */
+header {
+  background: white url('../img/mountain-header.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+header h3 {
+  margin-top: 0px;
+  padding-bottom: 100px;
+  font-size: 14px;
 }
