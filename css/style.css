@@ -52,7 +52,6 @@ header h3 {
 
 #learning div {
   display: inline-block;
-  width: 200px;
+  width: 300px;
   height: 100px;
-  margin: 6em;
 }
