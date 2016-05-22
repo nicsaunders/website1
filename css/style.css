@@ -79,6 +79,11 @@ section p {
   background-color: #f1f1f1;
 }
 
+#profile-image {
+  border-radius: 200px;
+  margin-top: 40px;
+}
+
 #experiments ul {
   width: 350px;
   margin-left: auto;
