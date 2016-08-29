@@ -95,3 +95,9 @@ footer {
   text-align: center;
   margin: 30px 0px 30px 0px;
 }
+
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
